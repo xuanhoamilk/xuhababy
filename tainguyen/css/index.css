@@ -263,8 +263,8 @@
  }
  .par1 ul>li{
  	text-transform: 	none;
- 	line-height: 30px;
- 	padding-left: 10px;
+ 	line-height: 25px;
+ 	padding-left: 0px;
  }
  .par1 p  {
  	padding: 20px;
@@ -286,19 +286,14 @@
 .backgroundimg{
 	z-index: -1;
 }
-.lastone1 img{
-	padding-top: 0px;
-	height: 100px;
-	width: 150px;
-
+.beforelastone{
+  padding-left: 30px;
 }
+
 .beforelastone ul>li>a{
 	padding-left: 20px;
+}
 
-}
-.lastone{
-	padding-top: 10px;
-}
 /*css cho slide va catalogie*/
 .list-group i{
 	padding-right: 10px;
@@ -306,6 +301,9 @@
 }
 .catagoriessub{
 	line-height: 40px;
+}
+.menu2p1p1 >p{
+  text-transform: none;
 }
 .menu2p1p1{
 	border-right: 1px solid #ede7f6;
@@ -317,6 +315,10 @@
 .menu2p2{
 	position: relative;
 }
+#menu2p2 li>a:hover{
+  color: lightgreen;
+  font-weight: bold;
+}
 #menu2p2 ul>img{
 	width: 100%;
 	height: 100%;
@@ -325,6 +327,10 @@
 	position: absolute;
 	top: -10px;
 	left: 0;
+  padding-left: 20px;
+}
+.infoimg>li{
+  border-bottom: 1px solid #ede7f6;
 }
 .menu2p1p22{
 	padding-top: 35px;
@@ -371,7 +377,7 @@
     }    
 
 .menu2p1p2 ul {
-	padding-left:  10px;
+	padding-left:  0px;
 }
 #category button.list-group-item {
     width: 100%;
@@ -686,12 +692,14 @@
 }
 /*css cho jumbocho*/
 .jumbo1{
-  background-image: url(../../img/banner/banner_home1.jpg);
+  background-image: url(../../img1/background/7hoasamdatbg.jpg);
    background-size: 100% 100%;
   color:  #f4721e;
 }
 .jumbo2 {
-   color:  #f4721e;   
+   color:  #f4721e; 
+   background-image: url(../../img1/background/1mamdaunanh.jpg);
+   background-size: 100% 100%;  
 }
 .paddingjb{
   padding: 20px;
@@ -989,6 +997,7 @@ background-color: transparent;
   	#menu2p1:hover .dropdown-menu {
   			height: 300px;
   			opacity: 1;
+        border: 1px solid #79c753;
   	}
   	#menu2p2 .dropdown-menu {
   			width: 500px;
@@ -1005,12 +1014,13 @@ background-color: transparent;
   			opacity: 0;	
   	}  		
   	#menu2p2:hover .dropdown-menu {
-  			height: 250px;
+  			height: 270px;
   			opacity: 1;
+        border: 1px solid #79c753;
   	}
   	#menu2p3 .dropdown-menu {
   			opacity: 0;
-  			width: 200px;
+  			width: 220px;
   			height: 0px;
   			transition: all 0.3s ease-out;
   			display: block;	
@@ -1022,10 +1032,15 @@ background-color: transparent;
   			top:  48px;
   			border-color: #79c753;
 
-  	}  		
+  	} 
+    #menu2p3 ul>li>a:hover{
+        color: lightgreen;
+        font-weight: bold;
+    } 		
   	#menu2p3:hover .dropdown-menu {
-  			height: 200px;
+  			height: 240px;
   			opacity: 1;
+        border: 1px solid #79c753;
   	}
   		
   	#menu2p4{
@@ -1049,6 +1064,7 @@ background-color: transparent;
   	#menu2p4:hover .dropdown-menu {
   			height: 300px;
   			opacity: 1;
+        border: 1px solid #79c753;
   	}
   	/*css cho slide menu doc*/
   	#menudoc1 .dropdown-menu {
@@ -1066,17 +1082,17 @@ background-color: transparent;
   			opacity: 0;	
   	}  		
   	#menudoc1:hover .dropdown-menu {
-  			width: 500px;
+  			width: 220px;
   			opacity: 1;
   			border: 1px solid #79c753;
   	}
-  	#menudoc1 ul>img{
+  /*	#menudoc1 ul>img,  #menudoc2 ul>img, #menudoc3 ul>img, #menudoc4 ul>img, #menudoc5 ul>img, #menudoc6 ul>img,{
 	width: 100%;
 	height: 100%;
-	}
+	}*/
 	#menudoc2 .dropdown-menu {
   			width: 0px;
-  			height: 250px;
+  			height: 300px;
   			transition: all 0.3s ease-out;
   			display: block;	
   			overflow: hidden;
@@ -1089,13 +1105,13 @@ background-color: transparent;
   			opacity: 0;	
   	}  		
   	#menudoc2:hover .dropdown-menu {
-  			width: 300px;
+  			width: 220px;
   			opacity: 1;
   			border: 1px solid #79c753;
   	}
   	#menudoc3 .dropdown-menu {
   			width: 0px;
-  			height: 200px;
+  			height: 250px;
   			transition: all 0.3s ease-out;
   			display: block;	
   			overflow: hidden;
@@ -1108,7 +1124,7 @@ background-color: transparent;
   			opacity: 0;	
   	}  		
   	#menudoc3:hover .dropdown-menu {
-  			width: 180px;
+  			width: 220px;
   			opacity: 1;
   			border: 1px solid #79c753;
   	}
@@ -1127,7 +1143,7 @@ background-color: transparent;
   			opacity: 0;	
   	}  		
   	#menudoc4:hover .dropdown-menu {
-  			width: 180px;
+  			width: 220px;
   			opacity: 1;
   			border: 1px solid #79c753;
   	}
@@ -1146,7 +1162,7 @@ background-color: transparent;
   			opacity: 0;	
   	}  		
   	#menudoc5:hover .dropdown-menu {
-  			width: 180px;
+  			width: 220px;
   			opacity: 1;
   			border: 1px solid #79c753;
   	}
@@ -1165,7 +1181,7 @@ background-color: transparent;
   			opacity: 0;	
   	}  		
   	#menudoc6:hover .dropdown-menu {
-  			width: 180px;
+  			width: 220px;
   			opacity: 1;
   			border: 1px solid #79c753;
   	}
@@ -1196,4 +1212,8 @@ background-color: transparent;
   		min-width: 0;
   		border: none;
   	}
+    #menuthu2 .dropdown-menu {
+      min-width: 0;
+      border: none;
+    }
 }/*ket thuc @media*/
