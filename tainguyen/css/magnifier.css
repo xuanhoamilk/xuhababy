@@ -9,8 +9,7 @@
     position: absolute;
     border: solid 1px #ccc;
     z-index: 1000;
-    top: 0;
-    left: 0;
+   
     overflow: hidden
 }
 
@@ -43,7 +42,7 @@
     width: 100%;
     height: 150px;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .magnifier-preview img {

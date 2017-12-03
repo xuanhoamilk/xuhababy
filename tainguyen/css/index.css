@@ -78,7 +78,24 @@
   width: 100%;
    border: 1px solid #79c753;
 }
-/*phan phong to*/
+#vitrilen{
+   margin: 35px 35px 15px 35px;
+}
+.sanphaminfojava{
+  padding-top: 30px;
+}
+/*.chitietimg img{
+   width: 100%;
+  height: 100%;
+}*/
+#thumb-lens{
+  background-size: 100% 100%;
+}
+#preview{
+  position: absolute;
+  top: 30px;
+  left: 00px;
+}
 /*Lets create the magnifying glass*/
 .large {
     width: 175px; height: 175px;
@@ -415,7 +432,7 @@
 }
 #todaydeal .carousel-inner{
 	border: 1px solid #d7d7d7;
-	height: 422px;
+	
 }
  .btn:focus {
     color: white;   
@@ -926,6 +943,7 @@ background-color: transparent;
 }
 
 
+
 /*part2*/
 
 
@@ -947,7 +965,24 @@ background-color: transparent;
 /*.vitri4{
   right: -200px;
 }*/
+#tucssmodal h4{
+  color: white;
+}
 
+#tucssmodal {
+  background: #62ad3e;
+}
+
+
+
+
+
+
+
+
+
+
+/*css ben tren*/
 .multi-item-carousel{
   .carousel-inner{
     > .item{
@@ -968,17 +1003,21 @@ background-color: transparent;
       left: -33%;
     }
 
-    @media all and (transform-3d), (-webkit-transform-3d) {
-      > .item{
-        // use your favourite prefixer here
-        transition: 500ms ease-in-out left;
-        transition: 500ms ease-in-out all;
-        backface-visibility: visible;
-        transform: none!important;
-      }
-    }
+
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+  > .item{
+    
+    transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out all;
+    backface-visibility: visible;
+    transform: none!important;
+
   }
 }
+  }
+}
+
 @media (min-width: 720px){		
 
   	#menu2p1 .dropdown-menu {
@@ -1215,5 +1254,6 @@ background-color: transparent;
     #menuthu2 .dropdown-menu {
       min-width: 0;
       border: none;
+      z-index: 1100;
     }
 }/*ket thuc @media*/
