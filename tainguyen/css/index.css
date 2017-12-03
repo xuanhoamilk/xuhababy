@@ -1,8 +1,8 @@
 /*css/cho chitiet*/
 .phanthanbentraict .panel-default>.panel-heading {
-    color: #333;
-    background-color: #eceff1;
-    border-color: #ddd;
+    color: white;
+    background-color: #79c753;
+    border-color: #79c753;
     padding-right: 30px;
 }
 .phanthanbentraict .list-group-item {    
@@ -807,6 +807,14 @@ background-color: transparent;
 
 /*css cho san pham chay ngang*/
 
+#main2 img{
+  width: 100%;
+  height: 100%;
+}
+.phanthanbenphaict  img {
+  width: 100%;
+  height: 100%;
+}
 
 /*css part 1*/
 
