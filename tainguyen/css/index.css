@@ -11,6 +11,10 @@
     background-color: #79c753;
     border-color: #79c753;
     padding-right: 30px;
+    font-size: 29px;
+}
+.phanthanbentraict .panel-default>.panel-heading a{
+   font-size: 20px;
 }
 .phanthanbentraict .list-group-item {    
     border-right: none;   
@@ -740,7 +744,7 @@
   padding: 20px;
 }
 .sanphambanchay .list-group-item{
-  height: 100px;
+  height: 130px;
   padding: 10px 0 0 0;
 }
 
