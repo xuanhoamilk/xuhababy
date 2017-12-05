@@ -14,7 +14,7 @@
     font-size: 29px;
 }
 .phanthanbentraict .panel-default>.panel-heading a{
-   font-size: 20px;
+   /*font-size: 17px;*/
 }
 .phanthanbentraict .list-group-item {    
     border-right: none;   
@@ -282,7 +282,8 @@
 	background-color:#79c753;
 }
 .menu2 .navbar-default .navbar-nav>li>a {
-	color: white;    
+	color: white; 
+     
 }
  .menu2 .navbar-default .navbar-nav>li>a:hover {
     color: white;
@@ -449,9 +450,7 @@
 	right: -200px;
 
 }
-#todaydeal img{
-	
-}
+
 #todaydeal .carousel-inner{
 	border: 1px solid #d7d7d7;
 	
@@ -826,10 +825,15 @@ background-color: transparent;
 .nuthanghoa{
   margin-bottom: 20px;
 }
+#nuthanghoa img{
+  height: 20px;
+  width: 40px;
+  
+}
 
 /*css cho san pham chay ngang*/
 
-#main2 img{
+.spchayngang img{
   width: 100%;
   height: 100%;
 }
@@ -852,6 +856,9 @@ background-color: transparent;
   padding-right: 50px;
    margin: 15px;
 
+}
+#accordion h4{
+  font-size: 20px;
 }
 .nennut{    
    color: white;
@@ -1002,6 +1009,13 @@ background-color: transparent;
 
 #tucssmodal {
   background: #62ad3e;
+}
+.modal-content img{
+  width: 50px;
+  height: 15px;
+}
+.modal-footer{
+  background: #62ad3e; 
 }
 
 
@@ -1156,10 +1170,7 @@ background-color: transparent;
   			opacity: 1;
   			border: 1px solid #79c753;
   	}
-  /*	#menudoc1 ul>img,  #menudoc2 ul>img, #menudoc3 ul>img, #menudoc4 ul>img, #menudoc5 ul>img, #menudoc6 ul>img,{
-	width: 100%;
-	height: 100%;
-	}*/
+ 
 	#menudoc2 .dropdown-menu {
   			width: 0px;
   			height: 300px;
