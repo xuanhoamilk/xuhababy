@@ -283,6 +283,7 @@
 }
 .menu2 .navbar-default .navbar-nav>li>a {
 	color: white; 
+  font-size: 17px;
      
 }
  .menu2 .navbar-default .navbar-nav>li>a:hover {
@@ -292,7 +293,7 @@
 .menu2 .navbar-default .navbar-brand{
     color: white;
     background-color:#79c753;
-    font-size: 14px;
+    font-size: 17px;
 }
 .menu2 .navbar-default .navbar-brand:hover  {
     color: white;
