@@ -1,3 +1,12 @@
+.paddingbottom{
+  padding-bottom: 10px;
+}
+.buttonwhite{
+  color: white;
+}
+.buttonwhite:hover{
+  color: white;
+}
 #headingThree .fa{
   padding-right: 10px;
 }
@@ -13,8 +22,12 @@
     padding-right: 30px;
     font-size: 29px;
 }
-.phanthanbentraict .panel-default>.panel-heading a{
-   /*font-size: 17px;*/
+.phanthanbentraict  a{
+  color: black;
+}
+.phanthanbentraict  .panel-heading h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .phanthanbentraict .list-group-item {    
     border-right: none;   
@@ -30,7 +43,7 @@
   padding-bottom: 0px;
 
 }
-.phanthanbentraict .list-group-item:hover {    
+.phanthanbentraict  a:hover {    
     color: green;
     font-weight: bold;
   }
@@ -515,7 +528,7 @@
 }
 .giakm{
 	font-size: 16px;
-	color: red;
+	color:;
 	}
 .osanpham img{
   width: 100%;
