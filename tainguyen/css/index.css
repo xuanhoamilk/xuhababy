@@ -1,3 +1,22 @@
+
+
+.thanhheading{
+  background: #79c753;
+  color: white;
+  height:  40px;
+  font-size: 19px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.gioithieu{
+  margin-top: 20px;
+}
+
+.margintop40{
+  margin-top: 40px;
+}
+
 .paddingbottom{
   padding-bottom: 10px;
 }
@@ -876,7 +895,7 @@ background-color: transparent;
 }
 .nennut{    
    color: white;
-   width: 200px;
+   width: 220px;
    height:  32px;   
    position: absolute;
    top: 50%;
@@ -890,7 +909,7 @@ background-color: transparent;
     color: #ededed;
     font-size: 60px;
     line-height: 60px;
-    left: 201px;
+    left: 221px;
     transform: translate(-100%,-50%);
     height: 60px;
 }
@@ -1033,10 +1052,47 @@ background-color: transparent;
 }
 
 
+.chudong {
+   text-transform: uppercase;
+  font-size: 30px;
+  line-height: 40px;
+  color: green;
+  font-weight: bold;
+  height: 40px;
+  animation-name: shake;  
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
 
 
-
-
+@keyframes dichuyen{
+     0%{transform: translate(0px,0px);opacity: 1}
+  25%{transform: translate(-20px,0px);opacity: 1}
+  50%{transform: translate(0px,0px);opacity: 1}
+  75%{transform: translate(20px,0px);opacity: 1}
+  100%{transform: translate(0px,0px);opacity: 1}
+}
+@keyframes dichuyen2{
+     0%{transform: translate(0px,0px);opacity: 1}
+  25%{transform: translate(0px,-20px);opacity: 0.5}
+  50%{transform: translate(0px,0px);opacity: 1}
+  75%{transform: translate(0px,20px);opacity: 0.5}
+  100%{transform: translate(0px,0px);opacity: 1}
+}
+       
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+} 
 
 
 
